@@ -1,0 +1,51 @@
+.Abus{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+.Abus1{
+    display: flex;
+    text-align: center;
+    font-size: 18px;
+}
+.Abus2{
+    display: grid;
+    grid-template-columns: 30px 10px;
+}
+.atag{
+    text-decoration: none;
+}
+.atag:hover{
+    text-decoration: underline;
+    color: aqua;
+}
+/* .Fbicon::before{
+    content: '';
+    background-image: url(https://nczpv1.necronz.repl.co/Src/uploads/Pic/FBlogo.svg);
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 24px;
+} */
+.transfb{
+    display: flex;
+    justify-content: center;
+}
+.transfb img{
+    width: 30px;
+    height: 24px;
+}
+.transfb:hover{
+    transition: 0.4s ease;
+    transform: scale3d(1.2,1.2,1.2);
+}
+.containerct{
+    padding-top: 40px;
+    display: flex;
+    column-gap: 10%;
+    justify-content: center;
+}
+.boxflex{
+    text-align: center;
+}
