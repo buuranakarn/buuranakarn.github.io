@@ -19,7 +19,7 @@ body{
 }
 
 .container {
-    max-width: 1140px;
+    max-width: 1280px;
     margin: 0 auto; 
 }
 
@@ -87,6 +87,7 @@ nav {
 
 .hero-info p {
     margin: 1rem 0;
+    font-size: 20px;
 }
 
 .hero-info .hero-btn {
@@ -106,7 +107,8 @@ nav {
 }
 
 .hero-img img {
-    padding: 2rem;
+    padding-top: 74px;
+    /* padding: 2rem; */
     width: 100%;
 }
 
