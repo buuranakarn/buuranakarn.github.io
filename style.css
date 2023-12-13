@@ -110,26 +110,46 @@ nav {
     width: 100%;
 }
 
-.blog-con {
+
+.blog-con{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2rem;
+    column-gap: 6rem;
+    /* background-color: brown; */
 }
+
+/* 
+.blogi-2{
+    background-color: #333;
+}
+.blogi-1{
+    background-color:cornflowerblue;
+} */
+
+/* .blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 6rem;
+    background-color: brown;
+} */
 
 .blog-title {
     margin: 2rem 0;
 }
 
 .blog-item img {
-    width: 100%;
+    width: 60%;
+    margin-left: 25%;
 }
 
 .blog-item h4 {
     margin: 1rem;
+    text-align: center;
 }
 
 .blog-item p {
     margin: 1rem 0;
+    text-align: center;
 }
 
 .blog-item a {

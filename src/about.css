@@ -8,6 +8,8 @@
 .Abus1{
     display: flex;
     text-align: center;
+    justify-content: center;
+    padding-top: 14px;
     font-size: 18px;
 }
 .Abus2{
@@ -48,4 +50,8 @@
 }
 .boxflex{
     text-align: center;
+}
+.fleximgpic{
+    width: 194px;
+    height: 259px;
 }
