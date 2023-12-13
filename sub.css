@@ -14,6 +14,12 @@
     width: 1200px;
     height: 280px;
 }
+
+.imgcontanar{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
 .textandimg img{
     padding-left: 40px;
     padding-right: 40px;
