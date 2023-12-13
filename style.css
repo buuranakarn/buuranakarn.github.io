@@ -114,9 +114,8 @@ nav {
 
 .blog-con{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 6rem;
-    /* background-color: brown; */
 }
 
 /* 
@@ -139,8 +138,12 @@ nav {
 }
 
 .blog-item img {
-    width: 60%;
-    margin-left: 25%;
+    width: 400px;
+}
+
+.imgcontain{
+    display: flex;
+    justify-content: center;
 }
 
 .blog-item h4 {
