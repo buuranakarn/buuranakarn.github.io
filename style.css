@@ -2,7 +2,10 @@
 
 body{
     font-family: 'K2D', sans-serif;
-    background-color: rgb(255, 253, 226);
+    background-color: #ccf5ff;
+    /* background-image: url(https://nczpv1.necronz.repl.co/Src/uploads/Pic/blackground2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
 }
 
 .particle{
@@ -20,7 +23,7 @@ body{
 
 .container {
     max-width: 1280px;
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 nav {
@@ -33,12 +36,17 @@ nav {
     justify-content: space-between;
 }
 
+.logo{
+    padding-left: 18px;
+    width: 480px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
 .logo a {
     font-size: 2rem;
     color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
 }
 
 .logo a:hover{
@@ -49,6 +57,8 @@ nav {
     display: flex;
     list-style: none;
     align-items: center;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .menu li {
@@ -58,8 +68,6 @@ nav {
 .menu li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    background-color: #ffffff;
-    border-radius: 8px;
 }
 
 .menu li a:hover {
@@ -69,13 +77,10 @@ nav {
 
 .hero-con {
     display: flex;
-    background-color:bisque;
+    margin-top: 20px ;
+    background-color:white;
+    border-radius: 20px;
 }
-
-.hero-con {
-    display: flex;
-}
-    
 .hero-info {
     width: 100%;
     padding: 2rem;
@@ -116,6 +121,8 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 6rem;
+    /* background-color: wheat;
+    border-radius: 20px; */
 }
 
 /* 
@@ -137,7 +144,14 @@ nav {
     margin: 2rem 0;
 }
 
-.blog-item img {
+.blog-item{
+    background-color: #ffffff;
+    height: 460px;
+    border-radius: 20px;
+    padding-left: 6px;
+}
+
+.blog-item img {    
     width: 400px;
 }
 
@@ -171,10 +185,14 @@ nav {
     transition: 0.5s ease;
 }
 
+.blog-btn{
+    border-radius: 10px;
+}
+
 .footer-top {
-    margin-top: 2rem;
-    padding: 3rem;
-    background-color: #ffe2e4;
+    margin-top: 100px;
+    padding: 1rem;
+    background-color:rgb(128, 227, 252);
     color:black;
 }
 
@@ -217,7 +235,7 @@ nav {
 }
 .facebooklink:hover{
     text-decoration:underline;
-    color: #3B5998;
+    color: purple;
 }
 .fbimglogo{
     margin-bottom: -5px;
@@ -230,7 +248,7 @@ nav {
 }
 .Xtwitterlink:hover{
     text-decoration: underline;
-    color: aqua;    
+    color: purple;    
 }
 .Xtwitterpad{
     transform: translateY(6px);

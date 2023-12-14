@@ -9,7 +9,7 @@
 .textandimg{
     display: flex;
     align-items: center;
-    background-color: aquamarine;
+    background-color: #e8faff;
     border-radius: 20px;
     width: 1200px;
     height: 280px;
@@ -28,7 +28,7 @@
 }
 .text{
     margin: 40px;
-    background-color:antiquewhite;
+    background-color:white;
     border-radius: 12px;
     padding-left: 8px;
 }
